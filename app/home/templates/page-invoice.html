@@ -1,0 +1,123 @@
+{% extends "base-site.html" %}
+
+{% block title %} Invoice {% endblock %} 
+
+<!-- Specific Page CSS goes HERE  -->
+{% block stylesheets %}{% endblock stylesheets %}
+
+{% block content %}
+
+            <!-- page title area start -->
+            <div class="page-title-area">
+                    <div class="row align-items-center">
+                        <div class="col-sm-6">
+                            <div class="breadcrumbs-area clearfix">
+                                <h4 class="page-title pull-left">Dashboard</h4>
+                                <ul class="breadcrumbs pull-left">
+                                    <li><a href="">Home</a></li>
+                                    <li><span>Invoice</span></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-6 clearfix">
+                            <div class="user-profile pull-right">
+                                <img class="avatar user-thumb" src="/static/assets/images/author/avatar.png" alt="avatar">
+                                <h4 class="user-name dropdown-toggle" data-toggle="dropdown"> {{ current_user.username }} <i class="fa fa-angle-down"></i></h4>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href={{ url_for('base_blueprint.logout') }} >Log Out</a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <!-- page title area end -->
+                <div class="main-content-inner">
+                    <div class="row">
+                        <div class="col-lg-12 mt-5">
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="invoice-area">
+                                        <div class="invoice-head">
+                                            <div class="row">
+                                                <div class="iv-left col-6">
+                                                    <span>INVOICE</span>
+                                                </div>
+                                                <div class="iv-right col-6 text-md-right">
+                                                    <span>#34445998</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row align-items-center">
+                                            <div class="col-md-6">
+                                                <div class="invoice-address">
+                                                    <h3>invoiced to</h3>
+                                                    <h5>Verdie Hintz</h5>
+                                                    <p>4494 Weekley Street, San Antonio, 78205 Texas</p>
+                                                    <p>San Antonio</p>
+                                                    <p>Somalia</p>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6 text-md-right">
+                                                <ul class="invoice-date">
+                                                    <li>Invoice Date : sat 18 | 07 | 2018</li>
+                                                    <li>Due Date : sat 18 | 07 | 2018</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="invoice-table table-responsive mt-5">
+                                            <table class="table table-bordered table-hover text-right">
+                                                <thead>
+                                                    <tr class="text-capitalize">
+                                                        <th class="text-center" style="width: 5%;">id</th>
+                                                        <th class="text-left" style="width: 45%; min-width: 130px;">description</th>
+                                                        <th>qty</th>
+                                                        <th style="min-width: 100px">Unit Cost</th>
+                                                        <th>total</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td class="text-center">1</td>
+                                                        <td class="text-left">Crazy Toys</td>
+                                                        <td>1</td>
+                                                        <td>$20</td>
+                                                        <td>$40</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="text-center">2</td>
+                                                        <td class="text-left">Beautiful flowers</td>
+                                                        <td>2</td>
+                                                        <td>$50</td>
+                                                        <td>$100</td>
+                                                    </tr>
+                                                </tbody>
+                                                <tfoot>
+                                                    <tr>
+                                                        <td colspan="4">total balance :</td>
+                                                        <td>$140</td>
+                                                    </tr>
+                                                </tfoot>
+                                            </table>
+                                        </div>
+                                    </div>
+                                    <div class="invoice-buttons text-right">
+                                        <a href="#" class="invoice-btn">print invoice</a>
+                                        <a href="#" class="invoice-btn">send invoice</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+{% endblock content %}
+
+<!-- Specific Page JS goes HERE  -->
+{% block javascripts %}
+
+<script src="/static/assets/js/plugins.js"></script>
+<script src="/static/assets/js/scripts.js"></script>
+
+{% endblock javascripts %}

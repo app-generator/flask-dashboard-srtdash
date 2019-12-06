@@ -1,0 +1,42 @@
+{% extends "base-site-auth.html" %}
+
+{% block title %} Screen Lock {% endblock %} 
+
+<!-- Specific Page CSS goes HERE  -->
+{% block stylesheets %}{% endblock stylesheets %}
+
+{% block content %}
+
+    <!-- login area start -->
+    <div class="login-area">
+        <div class="container">
+            <div class="login-box ptb--100">
+                <form>
+                    <div class="login-form-head">
+                        <h4>Screenlock</h4>
+                        <p>Hey! Unlock Your Screen.</p>
+                    </div>
+                    <div class="login-form-body">
+                        <div class="form-gp">
+                            <label for="exampleInputPassword1">Password</label>
+                            <input type="password" id="exampleInputPassword1">
+                            <i class="ti-lock"></i>
+                        </div>
+                        <div class="submit-btn-area mt-5">
+                            <button id="form_submit" type="submit">Unlock <i class="ti-arrow-right"></i></button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- login area end -->
+
+{% endblock content %}
+
+{% block javascripts %}
+
+    <script src="/static/assets/js/plugins.js"></script>
+    <script src="/static/assets/js/scripts.js"></script>
+
+{% endblock javascripts %}

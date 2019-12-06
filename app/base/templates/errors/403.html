@@ -1,0 +1,23 @@
+{% extends "base-site-error.html" %}
+
+{% block title %} Page 404 {% endblock %} 
+
+<!-- Specific Page CSS goes HERE  -->
+{% block stylesheets %}{% endblock stylesheets %}
+
+{% block content %}
+
+  <div class="error-area ptb--100 text-center">
+    <div class="container">
+        <div class="error-content">
+            <h2>403</h2>
+            <p>Access to this resource on the server is denied</p>
+            <a href="/">Back to Dashboard</a>
+        </div>
+    </div>
+  </div>
+
+{% endblock content %}
+
+<!-- Specific Page JS goes HERE  -->
+{% block javascripts %}{% endblock javascripts %}

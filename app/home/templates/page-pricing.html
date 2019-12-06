@@ -1,0 +1,204 @@
+{% extends "base-site.html" %}
+
+{% block title %} Page Blank {% endblock %} 
+
+<!-- Specific Page CSS goes HERE  -->
+{% block stylesheets %}{% endblock stylesheets %}
+
+{% block content %}
+
+    <div class="page-title-area">
+        <div class="row align-items-center">
+            <div class="col-sm-6">
+                <div class="breadcrumbs-area clearfix">
+                    <h4 class="page-title pull-left">Dashboard</h4>
+                    <ul class="breadcrumbs pull-left">
+                        <li><a href="/">Home</a></li>
+                        <li><span>pricing</span></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-sm-6 clearfix">
+                <div class="user-profile pull-right">
+                    <img class="avatar user-thumb" src="/static/assets/images/author/avatar.png" alt="avatar">
+                    <h4 class="user-name dropdown-toggle" data-toggle="dropdown"> {{ current_user.username }} <i class="fa fa-angle-down"></i></h4>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href={{ url_for('base_blueprint.logout') }} >Log Out</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- page title area end -->
+    <div class="main-content-inner">
+        <!-- color pricing start -->
+        <div class="row">
+            <div class="col-xl-3 col-ml-6 col-mdl-4 col-sm-6 mt-5">
+                <div class="card">
+                    <div class="pricing-list">
+                        <div class="prc-head">
+                            <h4>Membership</h4>
+                        </div>
+                        <div class="prc-list">
+                            <ul>
+                                <li><a href="#">Term financing</a></li>
+                                <li><a href="#">Access up to $10,000</a></li>
+                                <li><a href="#">Get: USD</a></li>
+                                <li><a href="#">3-24 Month Terms</a></li>
+                                <li class="bold"><a href="#">1 SALT/year</a></li>
+                            </ul>
+                            <a href="#">Buy Package</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-ml-6 col-mdl-4 col-sm-6 mt-5">
+                <div class="card">
+                    <div class="pricing-list">
+                        <div class="prc-head">
+                            <h4>Premier</h4>
+                        </div>
+                        <div class="prc-list">
+                            <ul>
+                                <li><a href="#">Term Finnacing & Line of Credit</a></li>
+                                <li><a href="#">Access up to $10,000</a></li>
+                                <li><a href="#">Get: USD, EUR, GBP, JPY, RMB</a></li>
+                                <li><a href="#">1 hour - 36 Month Terms</a></li>
+                                <li class="bold"><a href="#">30 SALT/year</a></li>
+                            </ul>
+                            <a href="#">Buy Package</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-ml-6 col-mdl-4 col-sm-6 mt-5">
+                <div class="card">
+                    <div class="pricing-list">
+                        <div class="prc-head">
+                            <h4>Enterprise</h4>
+                        </div>
+                        <div class="prc-list">
+                            <ul>
+                                <li><a href="#">Term Finnacing & Line of Credit</a></li>
+                                <li><a href="#">Access up to $10,000</a></li>
+                                <li><a href="#">Get: Ad Hoc Currency Selection</a></li>
+                                <li><a href="#">24 hour - 1 Year Terms</a></li>
+                                <li class="bold"><a href="#">Contact for Pricing</a></li>
+                            </ul>
+                            <a href="#">Buy Package</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-ml-6 col-mdl-4 col-sm-6 mt-5">
+                <div class="card">
+                    <div class="pricing-list">
+                        <div class="prc-head">
+                            <h4>Platinum</h4>
+                        </div>
+                        <div class="prc-list">
+                            <ul>
+                                <li><a href="#">Term Finnacing & Line of Credit</a></li>
+                                <li><a href="#">Access up to $10,000</a></li>
+                                <li><a href="#">Get: Ad Hoc Currency Selection</a></li>
+                                <li><a href="#">Metered Terms</a></li>
+                                <li class="bold"><a href="#">Contact for Pricing</a></li>
+                            </ul>
+                            <a href="#">Buy Package</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- color pricing end -->
+        <!-- dark pricing start -->
+        <div class="row">
+            <div class="col-xl-3 col-ml-6 col-mdl-4 col-sm-6 mt-5">
+                <div class="card">
+                    <div class="pricing-list dark-pricing">
+                        <div class="prc-head">
+                            <h4>Membership</h4>
+                        </div>
+                        <div class="prc-list">
+                            <ul>
+                                <li><a href="#">Term financing</a></li>
+                                <li><a href="#">Access up to $10,000</a></li>
+                                <li><a href="#">Get: USD</a></li>
+                                <li><a href="#">3-24 Month Terms</a></li>
+                                <li class="bold"><a href="#">1 SALT/year</a></li>
+                            </ul>
+                            <a href="#">Buy Package</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-ml-6 col-mdl-4 col-sm-6 mt-5">
+                <div class="card">
+                    <div class="pricing-list dark-pricing">
+                        <div class="prc-head">
+                            <h4>Premier</h4>
+                        </div>
+                        <div class="prc-list">
+                            <ul>
+                                <li><a href="#">Term Finnacing & Line of Credit</a></li>
+                                <li><a href="#">Access up to $10,000</a></li>
+                                <li><a href="#">Get: USD, EUR, GBP, JPY, RMB</a></li>
+                                <li><a href="#">1 hour - 36 Month Terms</a></li>
+                                <li class="bold"><a href="#">30 SALT/year</a></li>
+                            </ul>
+                            <a href="#">Buy Package</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-ml-6 col-mdl-4 col-sm-6 mt-5">
+                <div class="card">
+                    <div class="pricing-list dark-pricing">
+                        <div class="prc-head">
+                            <h4>Enterprise</h4>
+                        </div>
+                        <div class="prc-list">
+                            <ul>
+                                <li><a href="#">Term Finnacing & Line of Credit</a></li>
+                                <li><a href="#">Access up to $10,000</a></li>
+                                <li><a href="#">Get: Ad Hoc Currency Selection</a></li>
+                                <li><a href="#">24 hour - 1 Year Terms</a></li>
+                                <li class="bold"><a href="#">Contact for Pricing</a></li>
+                            </ul>
+                            <a href="#">Buy Package</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-ml-6 col-mdl-4 col-sm-6 mt-5">
+                <div class="card">
+                    <div class="pricing-list dark-pricing">
+                        <div class="prc-head">
+                            <h4>Platinum</h4>
+                        </div>
+                        <div class="prc-list">
+                            <ul>
+                                <li><a href="#">Term Finnacing & Line of Credit</a></li>
+                                <li><a href="#">Access up to $10,000</a></li>
+                                <li><a href="#">Get: Ad Hoc Currency Selection</a></li>
+                                <li><a href="#">Metered Terms</a></li>
+                                <li class="bold"><a href="#">Contact for Pricing</a></li>
+                            </ul>
+                            <a href="#">Buy Package</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- dark pricing end -->
+    </div>
+
+{% endblock content %}
+
+<!-- Specific Page JS goes HERE  -->
+{% block javascripts %}
+
+<script src="/static/assets/js/plugins.js"></script>
+<script src="/static/assets/js/scripts.js"></script>
+
+{% endblock javascripts %}

@@ -1,0 +1,85 @@
+{% extends "base-site-auth.html" %}
+
+{% block title %} Login {% endblock %} 
+
+<!-- Specific Page CSS goes HERE  -->
+{% block stylesheets %}{% endblock stylesheets %}
+
+{% block content %}
+
+    <!-- login area start -->
+    <div class="login-area login-s2">
+        <div class="container">
+            <div class="login-box ptb--100">
+
+                <form role="form" method="post" action="" class="pt-3">
+                
+                    {{ form.hidden_tag() }} 
+
+                    <div class="login-form-head">
+                        <h4>Register</h4>
+
+                        <p>
+                            {% if msg %}
+                                {{ msg | safe }}
+                            {% else %}
+                                Complete your credentials
+                            {% endif %}  
+                        </p>
+
+                    </div>
+                    <div class="login-form-body">
+                        
+                        <div class="form-gp">
+                            <label for="inputusername1">Username</label>
+                            {{ form.username(id="inputusername1") }}
+                            <i class="ti-user"></i>
+                            <div class="text-danger"></div>
+                        </div>
+
+                        <div class="form-gp">
+                            <label for="inputemail1">Email</label>
+                            {{ form.email(id="inputemail1", type="email") }}
+                            <i class="ti-email"></i>
+                            <div class="text-danger"></div>
+                        </div>
+                            
+                        <div class="form-gp">
+                            <label for="inputpass1">Password</label>
+                            {{ form.password(id="inputpass1", type="password") }}
+                            <i class="ti-lock"></i>
+                            <div class="text-danger"></div>
+                        </div>
+
+                        <div class="row mb-4 rmber-area">
+                            <div class="col-6">
+                                <div class="custom-control custom-checkbox mr-sm-2">
+                                    <input type="checkbox" class="custom-control-input" id="customControlAutosizing">
+                                    <label class="custom-control-label" for="customControlAutosizing">Remember Me</label>
+                                </div>
+                            </div>
+                            <div class="col-6 text-right">
+                                <a href="#">Forgot Password?</a>
+                            </div>
+                        </div>
+                        <div class="submit-btn-area">
+                            <button type="submit" name="register">Register <i class="ti-arrow-right"></i></button>
+                        </div>
+                        <div class="form-footer text-center mt-5">
+                            <p class="text-muted">Have an account? <a href={{ url_for('base_blueprint.login') }} >Login</a></p>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- login area end -->
+
+{% endblock content %}
+
+{% block javascripts %}
+
+    <script src="/static/assets/js/plugins.js"></script>
+    <script src="/static/assets/js/scripts.js"></script>
+
+{% endblock javascripts %}
