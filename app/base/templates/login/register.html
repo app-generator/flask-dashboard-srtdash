@@ -17,13 +17,16 @@
                     {{ form.hidden_tag() }} 
 
                     <div class="login-form-head">
-                        <h4>Register</h4>
 
+                        <h5 class="text-muted">
+                            <a href="https://appseed.us/admin-dashboards/flask-dashboard-srtdash" >Flask Dashboard SRTDash</a>
+                        </h5>
+                        <br />
                         <p>
                             {% if msg %}
                                 {{ msg | safe }}
                             {% else %}
-                                Complete your credentials
+                                Complete your credentials or <a href={{ url_for('base_blueprint.login') }}>authenticate</a> using an existing account.
                             {% endif %}  
                         </p>
 

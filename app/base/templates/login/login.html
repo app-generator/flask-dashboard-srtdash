@@ -17,13 +17,16 @@
                     {{ form.hidden_tag() }} 
 
                     <div class="login-form-head">
-                        <h4>Sign In</h4>
 
+                        <h5 class="text-muted">
+                            <a href="https://appseed.us/admin-dashboards/flask-dashboard-srtdash" >Flask Dashboard SRTDash</a>
+                        </h5>
+                        <br />
                         <p>
                             {% if msg %}
                                 {{ msg | safe }}
                             {% else %}
-                                Use default credentials: test / pass
+                                Use default credentials: <strong>test / pass</strong>
                                 <br />
                                 OR <a href={{ url_for('base_blueprint.create_user') }} >create your own user</a>
                             {% endif %}  
