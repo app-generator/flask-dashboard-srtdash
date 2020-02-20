@@ -1,16 +1,25 @@
 # [Flask Dashboard SRTDash](https://appseed.us/admin-dashboards/flask-dashboard-srtdash)
 
-**Open-Source Admin Dashboard** coded in **[Flask Framework](https://palletsprojects.com/p/flask/)** - Provided by **AppSeed** [Web App Generator](https://appseed.us/app-generator).
+**Open-Source Admin Dashboard** coded in **[Flask Framework](https://palletsprojects.com/p/flask/)** on top of **Black Dashboard** design (free version) - Provided by **AppSeed** [Web App Generator](https://appseed.us/app-generator).
 
-### Dashboard Features:
+## Dashboard Features:
 
 - SQLite, PostgreSQL, SQLAlchemy ORM
 - Alembic (DB schema migrations)
 - Modular design with **Blueprints**
-- Session-Based authentication (via **flask_login**)
-- Forms validation
-- Deployment scripts: Docker, Gunicorn
-- UI Kit: **SRTDash Dashboard** provided by **BootstrapDash**
+- Session-Based authentication (via **flask_login**), Forms validation
+- Deployment scripts: Docker, Gunicorn / Nginx
+- UI Kit: **[SRTDash Dashboard](https://flask-dashboard-black.appseed.us/login)** (Free version) provided by **ColorLib**
+- **MIT License**
+- Support: Free support via **Github** and (Paid) **24/7 LIVE Support** via [Discord](https://discord.gg/fZC6hup)
+
+<br />
+
+## Dashboard Links
+
+- [Flask Dashboard SRTDash](https://appseed.us/admin-dashboards/flask-dashboard-srtdash) - Product page
+- [Flask Dashboard SRTDash](https://docs.appseed.us/admin-dashboards/flask-dashboard-srtdash/) - Documentation
+- [Flask Dashboard SRTDash](https://flask-dashboard-srtdash.appseed.us/login) - LIVE Demo
 
 <br />
 
@@ -29,7 +38,7 @@ PRO versions include **Premium UI Kits**, Lifetime updates and **24/7 LIVE Suppo
 
 <br />
 
-## How to use it
+## Build from sources
 
 ```bash
 $ # Get the code
@@ -142,25 +151,25 @@ Visit `http://localhost:8001` in your browser. The app should be up & running.
 
 <br />
 
-## Support
-
-- Free support via eMail < [support @ appseed.us](https://appseed.us/support) > and **Github** issues tracker
-- 24/7 Live Support via [Discord](https://discord.gg/fZC6hup) for paid plans and commercial products.
-
-<br />
-
 ## Credits & Links
 
-- [Flask Dashboard SRTDash](https://appseed.us/admin-dashboards/flask-dashboard-srtdash) - Product page
-- [Flask Framework](https://www.palletsprojects.com/p/flask/) - Offcial website
-- [Flask Dashboard - Open-Source Boilerplates](https://dev.to/sm0ke/flask-dashboard-open-source-boilerplates-dkg) - A popular article published on Dev.to platform
-- [Flask Dashboard](https://admin-dashboards.com/tags/flask-dashboard) - Index provided by **Admin-Dashboards.com**
+<br />
+
+### [Flask Framework](https://www.palletsprojects.com/p/flask/)
+
+[Flask](/what-is/flask) is a micro web framework written in Python. It is classified as a microframework because it does not require particular tools or libraries. It has no database abstraction layer, form validation, or any other components where pre-existing third-party libraries provide common functions.
 
 <br />
 
-## License
+## [What is dashboard](https://en.wikipedia.org/wiki/Dashboard_(business))
 
-@MIT
+In information technology, a **[dashboard](https://en.wikipedia.org/wiki/Dashboard_(business))** is a user interface that, somewhat resembling an automobile's dashboard, organizes and presents information in a way that is easy to read. However, a computer dashboard is more likely to be interactive than an automobile dashboard (unless it is also computer-based). To some extent, most graphical user interfaces (GUIs) resemble a dashboard - by [Techtarget](https://searchcio.techtarget.com/definition/dashboard)
+
+<br />
+
+### [SRTDash Admin Panel](https://themewagon.com/themes/free-bootstrap-4-html5-admin-dashboard-template-srtdash/)
+
+Srtdash is a free Bootstrap 4 HTML5 admin dashboard template. It is a perfect match for the website admin and web-apps. Srtdash has a modern design with a beautiful, clean and minimal look. There are two different types of navigation bar styles and three unique home versions - provided by **ColorLib**.
 
 <br />
 
