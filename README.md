@@ -1,4 +1,4 @@
-# [Flask Dashboard SRTDash](https://appseed.us/admin-dashboards/flask-dashboard-srtdash)
+# [Flask Dashboard - SRTDash Design](https://appseed.us/admin-dashboards/flask-dashboard-srtdash)
 
 > **Open-Source Admin Dashboard** coded in **Flask Framework** by **AppSeed** [Web App Generator](https://appseed.us/app-generator) - Features:
 
@@ -14,11 +14,11 @@
 
 > Links
 
-- [Flask Dashboard SRTDash](https://appseed.us/admin-dashboards/flask-dashboard-srtdash) - Product page
-- [Flask Dashboard SRTDash](https://docs.appseed.us/admin-dashboards/flask-dashboard-srtdash/) - Documentation
-- [Flask Dashboard SRTDash](https://flask-dashboard-srtdash.appseed.us/login) - LIVE Demo
-- More [Flask Admin Dashboards](https://appseed.us/admin-dashboards/flask) - index hosted by **AppSeed**
-- [Free Admin Dashboards](https://appseed.us/admin-dashboards/open-source) - index hosted by **AppSeed**
+- [Flask Dashboard - SRTDash Design](https://appseed.us/admin-dashboards/flask-dashboard-srtdash) - Product page
+- [Flask Dashboard SRTDash Docs](https://docs.appseed.us/admin-dashboards/flask-dashboard-srtdash/) - Documentation
+- [Flask Dashboard SRTDash Demo](https://flask-dashboard-srtdash.appseed.us/login) - LIVE App
+- More [Flask Dashboards](https://appseed.us/admin-dashboards/flask) - index hosted by **AppSeed**
+- More [Admin Dashboards](https://appseed.us/admin-dashboards) - index hosted by **AppSeed**
 
 <br />
 
@@ -173,4 +173,4 @@ Srtdash is a free Bootstrap 4 HTML5 admin dashboard template. It is a perfect ma
 <br />
 
 ---
-[Flask Dashboard SRTDash](https://appseed.us/admin-dashboards/flask-dashboard-srtdash) - Provided by **AppSeed** [Web App Generator](https://appseed.us/app-generator).
+[Flask Dashboard - SRTDash Design](https://appseed.us/admin-dashboards/flask-dashboard-srtdash) - Provided by **AppSeed** [Web App Generator](https://appseed.us/app-generator).
