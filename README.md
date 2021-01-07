@@ -21,7 +21,7 @@ Srtdash is a free Bootstrap 4 HTML5 admin dashboard template. It is a perfect ma
 
 - [Flask Dashboard - SRTDash Design](https://appseed.us/admin-dashboards/flask-dashboard-srtdash) - product page
 - [Flask Dashboard SRTDash Demo](https://flask-dashboard-srtdash.appseed.us/login) - LIVE App
-- [Flask Dashboard SRTDash Docs](https://docs.appseed.us/admin-dashboards/flask-dashboard-srtdash/) - Documentation
+- [Flask Tutorial](https://github.com/app-generator/tutorial-flask) - Getting started with Flask
 
 <br />
 
